@@ -1,0 +1,6 @@
+Isolate the non-deterministic code and test the other parts that do not rely on it.
+This can alos allow for testing specifically for the non deterministic code as well
+
+Could try change or mainpualte the code to makle it detemrinistic for testing puroposes
+Could allow for multiple output testing, however I am unsure how feasible this may be as an implmeentation
+Could ecompass a range of outputs that it checks for.
